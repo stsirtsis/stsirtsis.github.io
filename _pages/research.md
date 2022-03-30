@@ -12,15 +12,16 @@ author_profile: true
 <!-- {% include base_path %} -->
 
 ### arXiv
-1. [Group Testing under Superspreading Dynamics](https://arxiv.org/abs/2106.15988)  
-  Stratis Tsirtsis, Abir De, Lars Lorch and Manuel Gomez-Rodriguez 
 1. [Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots](https://arxiv.org/abs/2004.07641)  
   Lars Lorch, Heiner Kremer, William Trouleau, Stratis Tsirtsis, Aron Szanto, Bernhard Schölkopf and Manuel Gomez-Rodriguez
 1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)  
   Stratis Tsirtsis, Behzad Tabibian, Moein Khajehnejad, Adish Singla, Bernhard Schölkopf and Manuel Gomez-Rodriguez 
 
-<!-- ### Journals -->
-
+### Journal
+1. [Pooled Testing of Traced Contacts Under Superspreading Dynamics](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010008)  
+  *PLOS Computational Biology, March 2022*   
+  Stratis Tsirtsis, Abir De, Lars Lorch and Manuel Gomez-Rodriguez
+  
 ### Conference proceedings
 1. [Counterfactual Explanations in Sequential Decision Making Under Uncertainty](https://arxiv.org/abs/2107.02776)  
   *35th Conference on Neural Information Processing Systems (NeurIPS), Virtual, December 2021*   
