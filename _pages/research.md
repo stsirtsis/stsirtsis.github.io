@@ -11,7 +11,7 @@ author_profile: true
 
 <!-- {% include base_path %} -->
 
-### arXiv
+### Preprints
 1. [Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots](https://arxiv.org/abs/2004.07641)  
   Lars Lorch, Heiner Kremer, William Trouleau, Stratis Tsirtsis, Aron Szanto, Bernhard Schölkopf and Manuel Gomez-Rodriguez
 1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)  
