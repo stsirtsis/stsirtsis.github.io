@@ -23,13 +23,13 @@ author_profile: true
   Stratis Tsirtsis, Abir De, Lars Lorch and Manuel Gomez-Rodriguez
   
 ### Conference proceedings
-1. [Counterfactual Explanations in Sequential Decision Making Under Uncertainty](https://arxiv.org/abs/2107.02776)  
+1. [Counterfactual Explanations in Sequential Decision Making Under Uncertainty](https://proceedings.neurips.cc/paper/2021/hash/fd0a5a5e367a0955d81278062ef37429-Abstract.html)  
   *35th Conference on Neural Information Processing Systems (NeurIPS), Virtual, December 2021*   
   Stratis Tsirtsis, Abir De and Manuel Gomez-Rodriguez 
 1. [Bridging Machine Learning and Mechanism Design towards Algorithmic Fairness](https://dl.acm.org/doi/abs/10.1145/3442188.3445912)  
   *4th ACM Conference on Fairness, Accountability, and Transparency (FAccT), Virtual, March 2021*   
   Jessie Finocchiaro, Roland Maio, Faidra Monachou, Gourab K Patro, Manish Raghavan, Ana-Andreea Stoica and Stratis Tsirtsis   
-1. [Decisions, Counterfactual Explanations and Strategic Behavior](https://papers.nips.cc/paper/2020/hash/c2ba1bc54b239208cb37b901c0d3b363-Abstract.html)  
+1. [Decisions, Counterfactual Explanations and Strategic Behavior](https://proceedings.neurips.cc/paper/2020/hash/c2ba1bc54b239208cb37b901c0d3b363-Abstract.html)  
   *34th Conference on Neural Information Processing Systems (NeurIPS), Virtual, December 2020*   
   Stratis Tsirtsis and Manuel Gomez-Rodriguez
   
