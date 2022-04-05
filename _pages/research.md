@@ -11,13 +11,14 @@ author_profile: true
 
 <!-- {% include base_path %} -->
 
-### Preprints
-1. [Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots](https://arxiv.org/abs/2004.07641)  
-  Lars Lorch, Heiner Kremer, William Trouleau, Stratis Tsirtsis, Aron Szanto, Bernhard Schölkopf and Manuel Gomez-Rodriguez
+### Preprint
 1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)  
   Stratis Tsirtsis, Behzad Tabibian, Moein Khajehnejad, Adish Singla, Bernhard Schölkopf and Manuel Gomez-Rodriguez 
 
-### Journal
+### Journals
+1. [Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots](https://arxiv.org/abs/2004.07641)  
+  *ACM Transactions on Spatial Algorithms and Systems (TSAS), April 2022*   
+  Lars Lorch, Heiner Kremer, William Trouleau, Stratis Tsirtsis, Aron Szanto, Bernhard Schölkopf and Manuel Gomez-Rodriguez   
 1. [Pooled Testing of Traced Contacts Under Superspreading Dynamics](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010008)  
   *PLOS Computational Biology, March 2022*   
   Stratis Tsirtsis, Abir De, Lars Lorch and Manuel Gomez-Rodriguez
