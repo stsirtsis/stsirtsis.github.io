@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hey there! I am Stratis, 3rd-year PhD student at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/) where I am very fortunate to be advised by [Dr. Manuel Gomez Rodriguez](https://people.mpi-sws.org/~manuelgr/index.html). I am mainly interested in the design of data-driven models and algorithms to inform human decisions in uncertain and high-stakes environments. That includes challenges related to explainability, strategic behavior, causality and fairness in decision-making. More broadly, I am interested in machine learning, optimization, mechanism design and their real-world applications.
+Hey there! I am Stratis, 4th-year PhD student at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/) where I am very fortunate to be advised by [Dr. Manuel Gomez Rodriguez](https://people.mpi-sws.org/~manuelgr/index.html). I am mainly interested in the design of data-driven models and algorithms to inform human decisions in uncertain and high-stakes environments. That includes challenges related to causality, explainability, fairness and strategic behavior in decision-making. More broadly, I am interested in machine learning, optimization, mechanism design and their real-world applications.
 
 ### Trivia
 * My academic roots can be found at the [School of Electrical & Computer Engineering](https://www.ece.ntua.gr/en) of the [National Technical University of Athens](https://www.ntua.gr/en/). There, I had the chance to work with [Prof. Dimitris Fotakis](https://www.softlab.ntua.gr/~fotakis/) on data mining and recommendation aspects of the Orienteering Problem.
