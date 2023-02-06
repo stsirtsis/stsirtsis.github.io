@@ -11,7 +11,9 @@ author_profile: true
 
 <!-- {% include base_path %} -->
 
-### Preprint
+### Preprints
+1. [On the Within-Group Discrimination of Screening Classifiers](https://arxiv.org/abs/2302.00025)  
+  Nastaran Okati, Stratis Tsirtsis and Manuel Gomez-Rodriguez 
 1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)  
   Stratis Tsirtsis, Behzad Tabibian, Moein Khajehnejad, Adish Singla, Bernhard Schölkopf and Manuel Gomez-Rodriguez 
 
