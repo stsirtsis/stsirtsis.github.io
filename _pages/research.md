@@ -25,7 +25,7 @@ author_profile: true
   
 ### Conference proceedings
 1. [On the Within-Group Discrimination of Screening Classifiers](https://arxiv.org/abs/2302.00025)   
-  *40th International Conference on Machine Learning (ICML), Hawaii, July 2023*   
+  *40th International Conference on Machine Learning (ICML), Honolulu, July 2023*   
   Nastaran Okati, Stratis Tsirtsis and Manuel Gomez-Rodriguez 
 1. [Counterfactual Explanations in Sequential Decision Making Under Uncertainty](https://proceedings.neurips.cc/paper/2021/hash/fd0a5a5e367a0955d81278062ef37429-Abstract.html)  
   *35th Conference on Neural Information Processing Systems (NeurIPS), Virtual, December 2021*   
