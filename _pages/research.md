@@ -12,6 +12,8 @@ author_profile: true
 <!-- {% include base_path %} -->
 
 ### Preprints
+1. [Finding Counterfactually Optimal Action Sequences in Continuous State Spaces](https://arxiv.org/abs/2306.03929)   
+  Stratis Tsirtsis and Manuel Gomez-Rodriguez  
 1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)  
   Stratis Tsirtsis, Behzad Tabibian, Moein Khajehnejad, Adish Singla, Bernhard Schölkopf and Manuel Gomez-Rodriguez 
 
