@@ -14,5 +14,5 @@ I am Stratis, 4th-year PhD student at the [Max Planck Institute for Software Sys
 
 ### Trivia
 * I spent Spring 2023 at [Stanford University](https://www.stanford.edu/), working with [Prof. Tobias Gerstenberg](https://cicl.stanford.edu/member/tobias_gerstenberg/).
-* My academic roots can be found at the [School of Electrical & Computer Engineering](https://www.ece.ntua.gr/en) of the [National Technical University of Athens](https://www.ntua.gr/en/), where I had the chance to do my diploma thesis supervised by [Prof. Dimitris Fotakis](http://www.softlab.ntua.gr/~fotakis/).
+* My academic roots can be found at the [School of Electrical & Computer Engineering](https://www.ece.ntua.gr/en) of the [National Technical University of Athens](https://www.ntua.gr/en/), where I had the chance to work on my diploma thesis supervised by [Prof. Dimitris Fotakis](http://www.softlab.ntua.gr/~fotakis/).
 * My life roots can be found at the Greek island of [Lesvos](https://www.lesvos.com/index.html).
