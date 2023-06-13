@@ -10,7 +10,7 @@ redirect_from:
 
 I am Stratis, 4th-year PhD student at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/), where I am very fortunate to be advised by [Dr. Manuel Gomez Rodriguez](https://people.mpi-sws.org/~manuelgr/index.html). My research goal is to design data-driven models and algorithms that can inform human decisions in uncertain and high-stakes environments. I am mainly interested in challenges related to causality, explainability, fairness and strategic behavior in machine learning.
 
-🌴 We are organizing an [ICML workshop on Counterfactuals in Minds and Machines](https://sites.google.com/view/counterfactuals-icml/home) in Hawaii, July 2023! Consider submitting.
+🌴 We are organizing an [ICML workshop on Counterfactuals in Minds and Machines](https://sites.google.com/view/counterfactuals-icml/home) in Hawaii on July 29, 2023. Join us!
 
 ### Trivia
 * I spent Spring 2023 at [Stanford University](https://www.stanford.edu/), working with [Prof. Tobias Gerstenberg](https://cicl.stanford.edu/member/tobias_gerstenberg/).
