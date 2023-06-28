@@ -40,6 +40,9 @@ author_profile: true
   Stratis Tsirtsis and Manuel Gomez-Rodriguez
   
 ### Workshops
+1. Finding Counterfactually Optimal Action Sequences in Continuous State Spaces   
+  *ICML Workshop on Counterfactuals in Minds and Machines, Honolulu, July 2023*  
+  Stratis Tsirtsis and Manuel Gomez-Rodriguez  
 1. Counterfactual Explanations in Sequential Decision Making Under Uncertainty  
   *ICML Workshop on Interpretable Machine Learning in Healthcare, Virtual, July 2021*  
   Stratis Tsirtsis, Abir De and Manuel Gomez-Rodriguez
