@@ -40,7 +40,7 @@ author_profile: true
   Stratis Tsirtsis and Manuel Gomez-Rodriguez
   
 ### Workshops
-1. On the Within-Group Discrimination of Screening Classifiers
+1. On the Within-Group Discrimination of Screening Classifiers   
   *2nd ACM SIGKDD Workshop on Ethical Artificial Intelligence: Methods and Applications, Long Beach, August 2023*   
   Nastaran Okati, Stratis Tsirtsis and Manuel Gomez-Rodriguez  
 1. Finding Counterfactually Optimal Action Sequences in Continuous State Spaces   
