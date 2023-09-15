@@ -13,11 +13,12 @@ author_profile: true
 
 ### Preprints
 1. [Finding Counterfactually Optimal Action Sequences in Continuous State Spaces](https://arxiv.org/abs/2306.03929)   
-  Stratis Tsirtsis and Manuel Gomez-Rodriguez  
-1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)  
-  Stratis Tsirtsis, Behzad Tabibian, Moein Khajehnejad, Adish Singla, Bernhard Schölkopf and Manuel Gomez-Rodriguez 
+  Stratis Tsirtsis and Manuel Gomez-Rodriguez   
 
 ### Journals
+1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)   
+  *Management Science, September 2023*   
+  Stratis Tsirtsis, Behzad Tabibian, Moein Khajehnejad, Adish Singla, Bernhard Schölkopf and Manuel Gomez-Rodriguez   
 1. [Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots](https://dl.acm.org/doi/10.1145/3530774)  
   *ACM Transactions on Spatial Algorithms and Systems (TSAS), April 2022*   
   Lars Lorch, Heiner Kremer, William Trouleau, Stratis Tsirtsis, Aron Szanto, Bernhard Schölkopf and Manuel Gomez-Rodriguez   
