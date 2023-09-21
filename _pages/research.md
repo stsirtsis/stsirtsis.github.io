@@ -27,7 +27,7 @@ author_profile: true
   Stratis Tsirtsis, Abir De, Lars Lorch and Manuel Gomez-Rodriguez
   
 ### Conference proceedings
-1. [On the Within-Group Discrimination of Screening Classifiers](https://arxiv.org/abs/2302.00025)   
+1. [On the Within-Group Fairness of Screening Classifiers](https://proceedings.mlr.press/v202/okati23a.html)   
   *40th International Conference on Machine Learning (ICML), Honolulu, July 2023*   
   Nastaran Okati, Stratis Tsirtsis and Manuel Gomez-Rodriguez 
 1. [Counterfactual Explanations in Sequential Decision Making Under Uncertainty](https://proceedings.neurips.cc/paper/2021/hash/fd0a5a5e367a0955d81278062ef37429-Abstract.html)  
@@ -41,7 +41,7 @@ author_profile: true
   Stratis Tsirtsis and Manuel Gomez-Rodriguez
   
 ### Workshops
-1. On the Within-Group Discrimination of Screening Classifiers   
+1. On the Within-Group Fairness of Screening Classifiers   
   *2nd ACM SIGKDD Workshop on Ethical Artificial Intelligence: Methods and Applications, Long Beach, August 2023*   
   Nastaran Okati, Stratis Tsirtsis and Manuel Gomez-Rodriguez  
 1. Finding Counterfactually Optimal Action Sequences in Continuous State Spaces   
