@@ -11,9 +11,7 @@ author_profile: true
 
 <!-- {% include base_path %} -->
 
-### Preprints
-1. [Finding Counterfactually Optimal Action Sequences in Continuous State Spaces](https://arxiv.org/abs/2306.03929)   
-  Stratis Tsirtsis and Manuel Gomez-Rodriguez   
+<!-- ### Preprints -->
 
 ### Journals
 1. [Optimal Decision Making Under Strategic Behavior](https://arxiv.org/abs/1905.09239)   
@@ -27,6 +25,9 @@ author_profile: true
   Stratis Tsirtsis, Abir De, Lars Lorch and Manuel Gomez-Rodriguez
   
 ### Conference proceedings
+1. [Finding Counterfactually Optimal Action Sequences in Continuous State Spaces](https://arxiv.org/abs/2306.03929)    
+  *37th Conference on Neural Information Processing Systems (NeurIPS), New Orleans, December 2023*   
+  Stratis Tsirtsis and Manuel Gomez-Rodriguez   
 1. [On the Within-Group Fairness of Screening Classifiers](https://proceedings.mlr.press/v202/okati23a.html)   
   *40th International Conference on Machine Learning (ICML), Honolulu, July 2023*   
   Nastaran Okati, Stratis Tsirtsis and Manuel Gomez-Rodriguez 
