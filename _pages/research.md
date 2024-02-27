@@ -14,7 +14,7 @@ author_profile: true
 <!-- ### Preprints -->
 
 ### Journals
-1. [Optimal Decision Making Under Strategic Behavior]([https://arxiv.org/abs/1905.09239](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2021.02567))   
+1. [Optimal Decision Making Under Strategic Behavior](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2021.02567)   
   *Management Science, February 2024*   
   Stratis Tsirtsis, Behzad Tabibian, Moein Khajehnejad, Adish Singla, Bernhard Schölkopf and Manuel Gomez-Rodriguez   
 1. [Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots](https://dl.acm.org/doi/10.1145/3530774)  
