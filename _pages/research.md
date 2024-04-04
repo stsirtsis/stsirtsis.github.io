@@ -42,6 +42,9 @@ author_profile: true
   Stratis Tsirtsis and Manuel Gomez-Rodriguez
   
 ### Workshops
+1. Towards a Computational Model of Responsibility Judgments in Sequential Human-AI Collaboration    
+  *CHI Workshop on Theory of Mind in Human-AI Interaction, Honolulu (hybrid), May 2024*    
+  Stratis Tsirtsis, Manuel Gomez-Rodriguez and Tobias Gerstenberg   
 1. On the Within-Group Fairness of Screening Classifiers   
   *2nd ACM SIGKDD Workshop on Ethical Artificial Intelligence: Methods and Applications, Long Beach, August 2023*   
   Nastaran Okati, Stratis Tsirtsis and Manuel Gomez-Rodriguez  
