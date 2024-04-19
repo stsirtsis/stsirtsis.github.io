@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Stratis, final year PhD student at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/), where I am very fortunate to be advised by [Dr. Manuel Gomez Rodriguez](https://people.mpi-sws.org/~manuelgr/index.html). My research is focused on the design of data-driven models and algorithms to inform human decisions in uncertain and high-stakes environments. I am mainly interested in challenges related to causality, explainability, fairness and incentives in machine learning.
+I am Stratis, final year PhD student at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/), where I am very fortunate to be advised by [Dr. Manuel Gomez Rodriguez](https://people.mpi-sws.org/~manuelgr/index.html). My research is focused on the design of data-driven models and algorithms to inform human decisions in uncertain and high-stakes environments. I am mainly interested in challenges related to causality, incentives, fairness and explainability in machine learning.
 
 ### Trivia
 * I spent Fall 2023 as a research scientist intern at [Meta AI](https://ai.meta.com/).  
