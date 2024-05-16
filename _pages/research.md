@@ -28,7 +28,7 @@ author_profile: true
 1. [Towards a computational model of responsibility judgments in sequential human-AI collaboration](https://osf.io/preprints/psyarxiv/m4yad)    
   *46th Annual Conference of the Cognitive Science Society (CogSci), Rotterdam, July 2024*    
   Stratis Tsirtsis, Manuel Gomez-Rodriguez and Tobias Gerstenberg   
-1. [Finding Counterfactually Optimal Action Sequences in Continuous State Spaces](https://arxiv.org/abs/2306.03929)    
+1. [Finding Counterfactually Optimal Action Sequences in Continuous State Spaces](https://proceedings.neurips.cc/paper_files/paper/2023/hash/09ae6beae5f1ff38f05c05979097ea0f-Abstract-Conference.html)    
   *37th Conference on Neural Information Processing Systems (NeurIPS), New Orleans, December 2023*   
   Stratis Tsirtsis and Manuel Gomez-Rodriguez   
 1. [On the Within-Group Fairness of Screening Classifiers](https://proceedings.mlr.press/v202/okati23a.html)   
