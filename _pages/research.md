@@ -25,7 +25,7 @@ author_profile: true
   Stratis Tsirtsis, Abir De, Lars Lorch and Manuel Gomez-Rodriguez
   
 ### Conference proceedings
-1. [Towards a computational model of responsibility judgments in sequential human-AI collaboration](https://osf.io/preprints/psyarxiv/m4yad)    
+1. [Towards a computational model of responsibility judgments in sequential human-AI collaboration](https://escholarship.org/uc/item/5h1742zk)    
   *46th Annual Conference of the Cognitive Science Society (CogSci), Rotterdam, July 2024*    
   Stratis Tsirtsis, Manuel Gomez-Rodriguez and Tobias Gerstenberg   
 1. [Finding Counterfactually Optimal Action Sequences in Continuous State Spaces](https://proceedings.neurips.cc/paper_files/paper/2023/hash/09ae6beae5f1ff38f05c05979097ea0f-Abstract-Conference.html)    
