@@ -24,11 +24,10 @@ I have spent fall 2023 as a research intern at [Meta AI (FAIR)](https://ai.meta.
 <!--  -->
 Before starting my PhD, I studied electrical & computer engineering at the [National Technical University of Athens](https://ntua.gr/en/), where I completed my diploma thesis supervised by [Dimitris Fotakis](http://www.softlab.ntua.gr/~fotakis/).
 
-In a nutshell, my **research interests** lie in the intersection of **machine learning** and:
-* causality
+At a high-level, I am interested in developing AI systems that understand, inform and complement human decisions and judgments in uncertain and high-stakes environments. At a low-level, my **research interests** lie in the intersection of **machine learning** and:
+* causal inference
 * game theory
-* fairness
-* optimization
-* cognitive science
+* combinatorial & convex optimization
+* computational cognitive science
 
-More specifically, I am interested in designing models and algorithms based on machine learning to inform human decisions in high-stakes environments. Throughout my PhD, I have worked.
+🚨 **I am on the 2024-2025 academic job market!** 🚨 If your institution is hiring, feel free to reach out.
