@@ -5,6 +5,19 @@
 @string{jour = {Journal}}
 @string{pre = {Preprint}}
 
+@article{tsirtsis2024towards,
+  abbr=conf,
+  title={Towards a computational model of responsibility judgments in sequential human-AI collaboration},
+  author={Tsirtsis, Stratis and Gomez-Rodriguez, Manuel and Gerstenberg, Tobias},
+  journal={46th Annual Conference of the Cognitive Science Society (CogSci)},
+  year={2024},
+  abstract={When a human and an AI agent collaborate to complete a task and something goes wrong, who is responsible? Prior work has developed theories to describe how people assign responsibility to individuals in teams. However, there has been little work studying the cognitive processes that underlie responsibility judgments in human-AI collaborations, especially for tasks comprising a sequence of interdependent actions. In this work, we take a step towards filling this gap. Using semi-autonomous driving as a paradigm, we develop an environment that simulates stylized cases of human-AI collaboration using a generative model of agent behavior. We propose a model of responsibility that considers how unexpected an agent's action was, and what would have happened had they acted differently. We test the model's predictions empirically and find that in addition to action expectations and counterfactual considerations, participants' responsibility judgments are also affected by how much each agent actually contributed to the outcome.},
+  link={https://escholarship.org/uc/item/5h1742zk},
+  note={A preliminary version appeared at the <em>CHI Workshop on Theory of Mind in Human-AI Interaction</em>, 2024.},
+  award={Selected for an oral presentation (top 19% of submissions).}
+}
+
+
 @article{tsirtsis2023finding,
   abbr=conf,
   title={Finding Counterfactually Optimal Action Sequences in Continuous State Spaces},
@@ -12,8 +25,8 @@
   journal={37th Conference on Neural Information Processing Systems (NeurIPS)},
   year={2023},
   abstract={Whenever a clinician reflects on the efficacy of a sequence of treatment decisions for a patient, they may try to identify critical time steps where, had they made different decisions, the patient's health would have improved. While recent methods at the intersection of causal inference and reinforcement learning promise to aid human experts, as the clinician above, to retrospectively analyze sequential decision making processes, they have focused on environments with finitely many discrete states. However, in many practical applications, the state of the environment is inherently continuous in nature. In this paper, we aim to fill this gap. We start by formally characterizing a sequence of discrete actions and continuous states using finite horizon Markov decision processes and a broad class of bijective structural causal models. Building upon this characterization, we formalize the problem of finding counterfactually optimal action sequences and show that, in general, we cannot expect to solve it in polynomial time. Then, we develop a search method based on the A* algorithm that, under a natural form of Lipschitz continuity of the environment's dynamics, is guaranteed to return the optimal solution to the problem. Experiments on real clinical data show that our method is very efficient in practice, and it has the potential to offer interesting insights for sequential decision making tasks.},
-  link={https://arxiv.org/abs/2306.03929},
-  note={Accepted and pending publication. A preliminary version appeared at the <em>ICML Workshop on Counterfactuals in Minds and Machines</em>, 2023.},
+  link={https://proceedings.neurips.cc/paper_files/paper/2023/hash/09ae6beae5f1ff38f05c05979097ea0f-Abstract-Conference.html},
+  note={A preliminary version appeared at the <em>ICML Workshop on Counterfactuals in Minds and Machines</em>, 2023.},
   selected={true}
 }
 
@@ -22,10 +35,11 @@
   title={Optimal Decision Making Under Strategic Behavior},
   author={Tsirtsis, Stratis and Tabibian, Behzad and Khajehnejad, Moein and Singla, Adish and Sch{\"o}lkopf, Bernhard and Gomez-Rodriguez, Manuel},
   journal={Management Science},
-  year={2023},
+  year={2024},
   abstract={We are witnessing an increasing use of data-driven predictive models to inform decisions. As decisions have implications for individuals and society, there is increasing pressure on decision makers to be transparent about their decision policies. At the same time, individuals may use knowledge, gained by transparency, to invest effort strategically in order to maximize their chances of receiving a beneficial decision. Our goal is to find decision policies that are optimal in terms of utility in such a strategic setting. To this end, we first characterize how strategic investment of effort by individuals leads to a change in the feature distribution. Using this characterization, we first show that, in general, we cannot expect to find optimal decision policies in polynomial time and there are cases in which deterministic policies are suboptimal. Then, we demonstrate that, if the cost individuals pay to change their features satisfies a natural monotonicity assumption, we can narrow down the search for the optimal policy to a particular family of decision policies with a set of desirable properties, which allow for a highly effective polynomial time heuristic search algorithm using dynamic programming. Finally, under no assumptions on the cost individuals pay to change their features, we develop an iterative search algorithm that is guaranteed to find locally optimal decision policies also in polynomial time. Experiments on synthetic and real credit card data illustrate our theoretical findings and show that the decision policies found by our algorithms achieve higher utility than those that do not account for strategic behavior.},
-  link={https://arxiv.org/abs/1905.09239},
-  note={Accepted and pending publication. A preliminary version appeared at the <em>NeurIPS Workshop on Human-Centric Machine Learning</em>, 2019.}
+  link={https://pubsonline.informs.org/doi/full/10.1287/mnsc.2021.02567},
+  note={A preliminary version appeared at the <em>NeurIPS Workshop on Human-Centric Machine Learning</em>, 2019.},
+  selected={true}
 }
 
 @article{okati2023within,
