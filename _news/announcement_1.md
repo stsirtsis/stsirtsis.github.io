@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-7-30
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+We organized a [workshop on counterfactuals in minds and machines at ICML 2023](https://sites.google.com/view/counterfactuals-icml/home). Recordings are available [here](https://icml.cc/virtual/2023/workshop/21482).

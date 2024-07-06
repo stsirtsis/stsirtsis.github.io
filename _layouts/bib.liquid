@@ -178,9 +178,10 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
+    <!-- NOTE: the following is commented out because I introduced new behavior for entry.note -->
+    <!-- <div class="periodical">
       {{ entry.note | strip }}
-    </div>
+    </div> -->
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -198,13 +199,10 @@
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
-      {% if entry.html %}
-        {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-        {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-        {% endif %}
-      {% endif %}
+      <!-- NOTE: rename HTML to Link -->
+      {%- if entry.link %}
+        <a href="{{ entry.link }}" class="btn btn-sm z-depth-0" role="button">Link</a>
+      {%- endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
@@ -212,6 +210,10 @@
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
       {% endif %}
+      <!-- NOTE: add extra button for Note option -->
+      {%- if entry.note %}
+        <a class="bibnote btn btn-sm z-depth-0" role="button">Note</a>
+      {%- endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
           <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
@@ -332,6 +334,14 @@
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
+
+    <!-- NOTE: make (originally hidden) note appear below publication after button press -->
+    {% if entry.note -%}
+    <!-- Hidden note block -->
+      <div class="bibnote hidden">
+        <p>{{ entry.note }}</p>
+      </div>
+    {%- endif -%}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->

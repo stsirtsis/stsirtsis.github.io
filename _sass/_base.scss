@@ -457,6 +457,64 @@ footer.sticky-bottom {
   }
 }
 
+// Custom trivia section
+div.triviabtn{
+
+  display: flex;
+  justify-content: center;
+
+  a.trivia.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-left: 0;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
+div.trivia.hidden {
+
+  font-size: 0.875rem;
+  max-height: 0px;
+  overflow: hidden;
+  text-align: justify;
+  transition-property: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+  border: dashed 1px var(--global-bg-color);
+
+  p {
+    text-align: center;
+    line-height: 1.4em;
+    margin: 10px;
+  }
+
+  pre {
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 10px;
+  }
+}
+
+div.trivia.hidden.open {
+  max-height: 100em;
+  transition-property: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+  border-color: var(--global-text-color);
+}
+
 // CV
 
 .cv {
@@ -810,6 +868,14 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden.open {
+        border-color: var(--global-text-color);
+      }
+      // NOTE: add the following to enable the hide/unhide publication note functionality
+      div.bibnote.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.bibnote.hidden.open {
         border-color: var(--global-text-color);
       }
     }

@@ -1,114 +1,93 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{conf = {Conference}}
+@string{jour = {Journal}}
+@string{pre = {Preprint}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{tsirtsis2023finding,
+  abbr=conf,
+  title={Finding Counterfactually Optimal Action Sequences in Continuous State Spaces},
+  author={Tsirtsis, Stratis and Gomez-Rodriguez, Manuel},
+  journal={37th Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+  abstract={Whenever a clinician reflects on the efficacy of a sequence of treatment decisions for a patient, they may try to identify critical time steps where, had they made different decisions, the patient's health would have improved. While recent methods at the intersection of causal inference and reinforcement learning promise to aid human experts, as the clinician above, to retrospectively analyze sequential decision making processes, they have focused on environments with finitely many discrete states. However, in many practical applications, the state of the environment is inherently continuous in nature. In this paper, we aim to fill this gap. We start by formally characterizing a sequence of discrete actions and continuous states using finite horizon Markov decision processes and a broad class of bijective structural causal models. Building upon this characterization, we formalize the problem of finding counterfactually optimal action sequences and show that, in general, we cannot expect to solve it in polynomial time. Then, we develop a search method based on the A* algorithm that, under a natural form of Lipschitz continuity of the environment's dynamics, is guaranteed to return the optimal solution to the problem. Experiments on real clinical data show that our method is very efficient in practice, and it has the potential to offer interesting insights for sequential decision making tasks.},
+  link={https://arxiv.org/abs/2306.03929},
+  note={Accepted and pending publication. A preliminary version appeared at the <em>ICML Workshop on Counterfactuals in Minds and Machines</em>, 2023.},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{tsirtsis2019optimal,
+  abbr=jour,
+  title={Optimal Decision Making Under Strategic Behavior},
+  author={Tsirtsis, Stratis and Tabibian, Behzad and Khajehnejad, Moein and Singla, Adish and Sch{\"o}lkopf, Bernhard and Gomez-Rodriguez, Manuel},
+  journal={Management Science},
+  year={2023},
+  abstract={We are witnessing an increasing use of data-driven predictive models to inform decisions. As decisions have implications for individuals and society, there is increasing pressure on decision makers to be transparent about their decision policies. At the same time, individuals may use knowledge, gained by transparency, to invest effort strategically in order to maximize their chances of receiving a beneficial decision. Our goal is to find decision policies that are optimal in terms of utility in such a strategic setting. To this end, we first characterize how strategic investment of effort by individuals leads to a change in the feature distribution. Using this characterization, we first show that, in general, we cannot expect to find optimal decision policies in polynomial time and there are cases in which deterministic policies are suboptimal. Then, we demonstrate that, if the cost individuals pay to change their features satisfies a natural monotonicity assumption, we can narrow down the search for the optimal policy to a particular family of decision policies with a set of desirable properties, which allow for a highly effective polynomial time heuristic search algorithm using dynamic programming. Finally, under no assumptions on the cost individuals pay to change their features, we develop an iterative search algorithm that is guaranteed to find locally optimal decision policies also in polynomial time. Experiments on synthetic and real credit card data illustrate our theoretical findings and show that the decision policies found by our algorithms achieve higher utility than those that do not account for strategic behavior.},
+  link={https://arxiv.org/abs/1905.09239},
+  note={Accepted and pending publication. A preliminary version appeared at the <em>NeurIPS Workshop on Human-Centric Machine Learning</em>, 2019.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{okati2023within,
+  abbr=conf,
+  title={On the Within-Group Fairness of Screening Classifiers},
+  author={Okati, Nastaran and Tsirtsis, Stratis and Gomez-Rodriguez, Manuel},
+  journal={40th International Conference on Machine Learning (ICML)},
+  year={2023},
+  abstract={Screening classifiers are increasingly used to identify qualified candidates in a variety of selection processes. In this context, it has been recently shown that if a classifier is calibrated, one can identify the smallest set of candidates which contains, in expectation, a desired number of qualified candidates using a threshold decision rule. This lends support to focusing on calibration as the only requirement for screening classifiers. In this paper, we argue that screening policies that use calibrated classifiers may suffer from an understudied type of within-group unfairness—they may unfairly treat qualified members within demographic groups of interest. Further, we argue that this type of unfairness can be avoided if classifiers satisfy within-group monotonicity, a natural monotonicity property within each group. Then, we introduce an efficient post-processing algorithm based on dynamic programming to minimally modify a given calibrated classifier so that its probability estimates satisfy within-group monotonicity. We validate our algorithm using US Census survey data and show that withingroup monotonicity can often be achieved at a small cost in terms of prediction granularity and shortlist size.},
+  link={https://proceedings.mlr.press/v202/okati23a.html},
+  note={Also appeared at the <em>2nd ACM SIGKDD Workshop on Ethical Artificial Intelligence: Methods and Applications</em>, 2023.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{lorch2022quantifying,
+  abbr=jour,
+  title={Quantifying the Effects of Contact Tracing, Testing, and Containment Measures in the Presence of Infection Hotspots},
+  author={Lorch, Lars and Kremer, Heiner and Trouleau, William and Tsirtsis, Stratis and Szanto, Aron and Sch{\"o}lkopf, Bernhard and Gomez-Rodriguez, Manuel},
+  journal={ACM Transactions on Spatial Algorithms and Systems},
+  year={2022},
+  abstract={Multiple lines of evidence strongly suggest that infection hotspots, where a single individual infects many others, play a key role in the transmission dynamics of COVID-19. However, most of the existing epidemiological models fail to capture this aspect by neither representing the sites visited by individuals explicitly nor characterizing disease transmission as a function of individual mobility patterns. In this work, we introduce a temporal point process modeling framework that specifically represents visits to the sites where individuals get in contact and infect each other. Under our model, the number of infections caused by an infectious individual naturally emerges to be overdispersed. Using an efficient sampling algorithm, we demonstrate how to estimate the transmission rate of infectious individuals at the sites they visit and in their households using Bayesian optimization (BO) and longitudinal case data. Simulations using fine-grained and publicly available demographic data and site locations from Bern, Switzerland showcase the flexibility of our framework. To facilitate research and analyses of other cities and regions, we release an open-source implementation of our framework.},
+  link={https://dl.acm.org/doi/10.1145/3530774}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{tsirtsis2022pooled,
+  abbr=jour,
+  title={Pooled Testing of Traced Contacts Under Superspreading Dynamics},
+  author={Tsirtsis, Stratis and De, Abir and Lorch, Lars and Gomez-Rodriguez, Manuel},
+  journal={PLOS Computational Biology},
+  year={2022},
+  abstract={Testing is recommended for all close contacts of confirmed COVID-19 patients. However, existing pooled testing methods are oblivious to the circumstances of contagion provided by contact tracing. Here, we build upon a well-known semi-adaptive pooled testing method, Dorfman’s method with imperfect tests, and derive a simple pooled testing method based on dynamic programming that is specifically designed to use information provided by contact tracing. Experiments using a variety of reproduction numbers and dispersion levels, including those estimated in the context of the COVID-19 pandemic, show that the pools found using our method result in a significantly lower number of tests than those found using Dorfman’s method. Our method provides the greatest competitive advantage when the number of contacts of an infected individual is small, or the distribution of secondary infections is highly overdispersed. Moreover, it maintains this competitive advantage under imperfect contact tracing and significant levels of dilution.},
+  link={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010008}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{tsirtsis2021counterfactual,
+  abbr=conf,
+  title={Counterfactual Explanations in Sequential Decision Making Under Uncertainty},
+  author={Tsirtsis, Stratis and De, Abir and Gomez-Rodriguez, Manuel},
+  journal={35th Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2021},
+  abstract={Methods to find counterfactual explanations have predominantly focused on one-step decision making processes. In this work, we initiate the development of methods to find counterfactual explanations for decision making processes in which multiple, dependent actions are taken sequentially over time. We start by formally characterizing a sequence of actions and states using finite horizon Markov decision processes and the Gumbel-Max structural causal model. Building upon this characterization, we formally state the problem of finding counterfactual explanations for sequential decision making processes. In our problem formulation, the counterfactual explanation specifies an alternative sequence of actions differing in at most k actions from the observed sequence that could have led the observed process realization to a better outcome. Then, we introduce a polynomial time algorithm based on dynamic programming to build a counterfactual policy that is guaranteed to always provide the optimal counterfactual explanation on every possible realization of the counterfactual environment dynamics. We validate our algorithm using both synthetic and real data from cognitive behavioral therapy and show that the counterfactual explanations our algorithm finds can provide valuable insights to enhance sequential decision making under uncertainty.},
+  link={https://proceedings.neurips.cc/paper/2021/hash/fd0a5a5e367a0955d81278062ef37429-Abstract.html},
+  note={A preliminary version appeared at the <em>ICML Workshop on Interpretable Machine Learning in Healthcare</em>, 2021.}
+}
+
+@article{finocchiaro2021bridging,
+  abbr=conf,
+  title={Bridging Machine Learning and Mechanism Design towards Algorithmic Fairness},
+  author={Finocchiaro, Jessie and Maio, Roland and Monachou, Faidra and Patro, Gourab K and Raghavan, Manish and Stoica, Ana-Andreea and Tsirtsis, Stratis},
+  journal={4th ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+  year={2021},
+  abstract={Decision-making systems increasingly orchestrate our world: how to intervene on the algorithmic components to build fair and equitable systems is therefore a question of utmost importance; one that is substantially complicated by the context-dependent nature of fairness and discrimination. Modern decision-making systems that involve allocating resources or information to people (e.g., school choice, advertising) incorporate machine-learned predictions in their pipelines, raising concerns about potential strategic behavior or constrained allocation, concerns usually tackled in the context of mechanism design. Although both machine learning and mechanism design have developed frameworks for addressing issues of fairness and equity, in some complex decision-making systems, neither framework is individually sufficient. In this paper, we develop the position that building fair decision-making systems requires overcoming these limitations which, we argue, are inherent to each field. Our ultimate objective is to build an encompassing framework that cohesively bridges the individual frameworks of mechanism design and machine learning. We begin to lay the ground work towards this goal by comparing the perspective each discipline takes on fair decision-making, teasing out the lessons each field has taught and can teach the other, and highlighting application domains that require a strong collaboration between these disciplines.},
+  link={https://dl.acm.org/doi/10.1145/3442188.3445912},
+  note={A preliminary version appeared at the <em>Harvard CRCS Workshop on AI for Social Good (AI4SG)</em>, 2020.}
+}
+
+@article{tsirtsis2020decisions,
+  abbr=conf,
+  title={Decisions, Counterfactual Explanations and Strategic Behavior},
+  author={Tsirtsis, Stratis and Gomez-Rodriguez, Manuel},
+  journal={34th Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2020},
+  abstract={As data-driven predictive models are increasingly used to inform decisions, it has been argued that decision makers should provide explanations that help individuals understand what would have to change for these decisions to be beneficial ones. However, there has been little discussion on the possibility that individuals may use the above counterfactual explanations to invest effort strategically and maximize their chances of receiving a beneficial decision. In this paper, our goal is to find policies and counterfactual explanations that are optimal in terms of utility in such a strategic setting. We first show that, given a pre-defined policy, the problem of finding the optimal set of counterfactual explanations is NP-hard. Then, we show that the corresponding objective is nondecreasing and satisfies submodularity and this allows a standard greedy algorithm to enjoy approximation guarantees. In addition, we further show that the problem of jointly finding both the optimal policy and set of counterfactual explanations reduces to maximizing a non-monotone submodular function. As a result, we can use a recent randomized algorithm to solve the problem, which also offers approximation guarantees. Finally, we demonstrate that, by incorporating a matroid constraint into the problem formulation, we can increase the diversity of the optimal set of counterfactual explanations and incentivize individuals across the whole spectrum of the population to self improve. Experiments on synthetic and real lending and credit card data illustrate our theoretical findings and show that the counterfactual explanations and decision policies found by our algorithms achieve higher utility than several competitive baselines.},
+  link={https://proceedings.neurips.cc/paper/2020/hash/c2ba1bc54b239208cb37b901c0d3b363-Abstract.html},
+  note={A preliminary version appeared at the <em>4th Workshop on Mechanism Design for Social Good (MD4SG)</em>, 2020.}
 }

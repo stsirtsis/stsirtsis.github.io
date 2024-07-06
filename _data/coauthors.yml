@@ -1,34 +1,67 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Okati":
+  - firstname: ["Nastaran"]
+    url: https://nastaran75.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Lorch":
+  - firstname: ["Lars"]
+    url: https://scholar.google.com/citations?user=Jq4UbdIAAAAJ&hl=en
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Gomez-Rodriguez":
+  - firstname: ["Manuel"]
+    url: https://people.mpi-sws.org/~manuelgr/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Tabibian":
+  - firstname: ["Behzad"]
+    url: https://btabibian.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Khajehnejad":
+  - firstname: ["Moein"]
+    url: https://moein-khajehnejad.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Singla":
+  - firstname: ["Adish"]
+    url: https://machineteaching.mpi-sws.org/adishsingla.html
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Schölkopf":
+  - firstname: ["Bernhard"]
+    url: https://is.mpg.de/~bs
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"De":
+  - firstname: ["Abir"]
+    url: https://abir-de.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Kremer":
+  - firstname: ["Heiner"]
+    url: https://heinerkremer.github.io/
+
+"Trouleau":
+  - firstname: ["William"]
+    url: https://scholar.google.ch/citations?user=cCYBrBgAAAAJ&hl=en
+
+"Szanto":
+  - firstname: ["Aron"]
+    url: https://aronszanto.com/
+
+"Finocchiaro":
+  - firstname: ["Jessie"]
+    url: https://www.jessiefin.com/
+
+"Monachou":
+  - firstname: ["Faidra"]
+    url: https://faidramonachou.github.io/
+
+"Maio":
+  - firstname: ["Roland"]
+    url: https://rolandmaio.github.io/
+
+"Patro":
+  - firstname: ["Gourab K"]
+    url: https://gourabkumarpatro.github.io/
+
+"Raghavan":
+  - firstname: ["Manish"]
+    url: https://mraghavan.github.io/
+
+"Stoica":
+  - firstname: ["Ana-Andreea"]
+    url: https://www.columbia.edu/~as5001/

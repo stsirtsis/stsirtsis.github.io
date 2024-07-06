@@ -3,19 +3,33 @@ $(document).ready(function () {
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibnote.hidden.open").toggleClass('open');
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
   });
   $("a.award").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden").toggleClass("open");
+    $(this).parent().parent().find(".bibnote.hidden.open").toggleClass('open');
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  });
+  $('a.bibnote').click(function() {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass('open');
+    $(this).parent().parent().find(".award.hidden.open").toggleClass('open');
+    $(this).parent().parent().find(".bibnote.hidden").toggleClass('open');
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass('open');
   });
   $("a.bibtex").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibnote.hidden.open").toggleClass('open');
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
   });
   $("a").removeClass("waves-effect waves-light");
+
+  // add toggle functionality to trivia button
+  $('a.trivia').click(function() {
+    $(this).parent().parent().find(".trivia.hidden").toggleClass('open');
+  });
 
   // bootstrap-toc
   if ($("#toc-sidebar").length) {
