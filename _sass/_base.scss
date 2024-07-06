@@ -888,6 +888,18 @@ div.trivia.hidden.open {
   }
 }
 
+.selected-front {
+  .publications {
+    ol.bibliography {
+      li {
+        .links {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
