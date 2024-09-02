@@ -31,4 +31,4 @@ At a high level, I am interested in building AI systems to understand, inform an
 * algorithmic fairness
 * computational cognitive science
 
-🚨 **I am on the 2024-2025 academic job market.** 🚨
+🚨 **I am on the 2024-2025 academic job market** 🚨
