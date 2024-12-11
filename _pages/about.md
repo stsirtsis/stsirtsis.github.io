@@ -9,8 +9,7 @@ profile:
   image: my_prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Paul-Ehrlich-Straße 26</p>
-    <p>Kaiserslautern, Germany</p>
+    <p>stsirtsis[at]mpi-sws[dot]org</p>
 
 trivia: I grew up on a beautiful Greek island called <a href="https://www.youtube.com/watch?v=BY2RUJdH2Is">Lesvos</a>. In my free time, I enjoy (trail) running and playing the guitar.
 

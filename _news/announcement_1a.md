@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I visited and gave research talks at [Harvard University](https://www.harvard.edu/) and [Columbia University](https://www.columbia.edu/).
+I visited and gave talks at [Harvard University](https://www.harvard.edu/) and [Columbia University](https://www.columbia.edu/).
