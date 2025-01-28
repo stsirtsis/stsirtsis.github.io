@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-9-25
+date: 2025-1-28
 inline: true
 related_posts: false
 ---
 
-We released a preprint on [Counterfactual Token Generation in Large Language Models](https://arxiv.org/abs/2409.17027)!
+Our paper [Counterfactual Token Generation in Large Language Models](https://arxiv.org/abs/2409.17027) has been accepted at [CLeaR 2025](https://www.cclear.cc/2025)! 🎉
