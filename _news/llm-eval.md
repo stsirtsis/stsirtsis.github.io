@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released a new preprint on [Evaluation of Large Language Models via Coupled Autoregressive Generation](https://arxiv.org/abs/2502.01754)!
+We released a new preprint on [Evaluation of Large Language Models via Coupled Token Generation](https://arxiv.org/abs/2502.01754)!
