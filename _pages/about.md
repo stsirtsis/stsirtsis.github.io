@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>stsirtsis[at]mpi-sws[dot]org</p>
 
-trivia: I grew up on a beautiful Greek island called <a href="https://www.youtube.com/watch?v=BY2RUJdH2Is">Lesvos</a>. In my free time, I enjoy (trail) running and playing the guitar.
+trivia: I grew up on a beautiful Greek island called <a href="https://www.visitlesvos.gr/en/">Lesvos</a>. In my free time, I enjoy (trail) running and playing the guitar.
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
