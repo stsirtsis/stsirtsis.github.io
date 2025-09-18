@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-1-14
+date: 2025-8-19
 inline: true
 related_posts: false
 ---
 
-I submitted my PhD thesis on *Strategic and counterfactual reasoning in AI-assisted decision making*! 🎉
+I successfully defended my PhD thesis and received the highest grade (summa cum laude)! 🎉
