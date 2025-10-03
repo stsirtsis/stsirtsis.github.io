@@ -7,7 +7,7 @@ subtitle: Postdoctoral researcher @ <a href='https://hpi.de/en/'>Hasso Plattner 
 profile:
   align: right
   image: my_prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>stratis.tsirtsis[at]hpi[dot]de</p>
 
