@@ -1,8 +1,14 @@
 "Journal":
-  color: "#2698BA"
+  color: "#33b07a"
 
 "Conference":
-  color: "#00ab37"
+  color: "#F77189"
 
 "Preprint":
-  color: "#B509AC"
+  color: "#CC7AF4"
+
+"Thesis":
+  color: "#38A9C5"
+
+"Workshop":
+  color: "#AE9D31"
