@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a talk (virtually) at [AUEB](https://www.aueb.gr/en).
+I gave a virtual talk at [AUEB](https://www.aueb.gr/en).
