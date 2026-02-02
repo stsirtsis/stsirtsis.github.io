@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-👋🏼 **Hey there!** My name is Stratis, and I am a postdoc working with [Sandra Wachter](https://hpi.de/en/research/research-groups/technology-and-regulation/), [Chris Russel](https://www.oii.ox.ac.uk/people/profiles/chris-russell/), and [Brent Mittelstadt](https://www.oii.ox.ac.uk/people/profiles/brent-mittelstadt/). My research develops computational methods to understand and improve AI's social impact.
+👋🏼 **Hey there!** My name is Stratis, and I am a postdoc working with [Sandra Wachter](https://hpi.de/en/research/research-groups/technology-and-regulation/), [Chris Russell](https://www.oii.ox.ac.uk/people/profiles/chris-russell/), and [Brent Mittelstadt](https://www.oii.ox.ac.uk/people/profiles/brent-mittelstadt/). My research develops computational methods to understand and improve AI's social impact.
 
 I completed my PhD in computer science at the [Max Planck Institute for Software Systems](https://www.mpi-sws.org/) advised by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/). During my PhD, I interned at [Meta (FAIR)](https://ai.meta.com/) and spent 3 months at [Stanford University](https://www.stanford.edu/) working with [Tobias Gerstenberg](https://cicl.stanford.edu/member/tobias_gerstenberg/). Towards the end of my PhD, I co-taught a [tutorial on counterfactual reasoning](https://learning.mpi-sws.org/counterfactuals-uai25/) at UAI 2025. I did my undergrad in electrical & computer engineering at the [National Technical University of Athens](https://ntua.gr/en/), where I completed my diploma thesis supervised by [Dimitris Fotakis](http://www.softlab.ntua.gr/~fotakis/).
 
