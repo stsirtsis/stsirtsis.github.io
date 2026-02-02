@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-6-10
+date: 2026-1-30
 inline: true
 related_posts: false
 ---
 
-We released a new preprint on [Canonical Autoregressive Generation](https://arxiv.org/abs/2506.06446)! 📜
+We released a new preprint showing that [Tokenization Multiplicity Leads to Arbitrary Price Variation in LLM-as-a-service](https://arxiv.org/abs/2506.06446)! 📜

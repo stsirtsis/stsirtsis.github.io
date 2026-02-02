@@ -7,6 +7,17 @@
 @string{the = {Thesis}}
 @string{ws = {Workshop}}
 
+@article{chatzi2025canonical,
+      abbr=pre,
+      title={Tokenization Multiplicity Leads to Arbitrary Price Variation in LLM-as-a-service}, 
+      author={Chatzi, Ivi and Corvelo Benz, Nina and Tsirtsis, Stratis and Gomez-Rodriguez, Manuel },
+      journal={arXiv},
+      year={2026},
+      abstract={Providers of LLM-as-a-service have predominantly adopted a simple pricing model: users pay a fixed price per token. Consequently, one may think that the price two different users would pay for the same output string under the same input prompt is the same. In our work, we show that, surprisingly, this is not (always) true. We find empirical evidence that, particularly for non-english outputs, both proprietary and open-weights LLMs often generate the same (output) string with multiple different tokenizations, even under the same input prompt, and this in turn leads to arbitrary price variation. To address the problem of tokenization multiplicity, we introduce canonical generation, a type of constrained generation that restricts LLMs to only generate canonical tokenizations -- the unique tokenization in which each string is tokenized during the training process of an LLM. Further, we introduce an efficient sampling algorithm for canonical generation based on the Gumbel-Max trick. Experiments on a variety of natural language tasks demonstrate that our sampling algorithm for canonical generation is comparable to standard sampling in terms of performance and runtime, and it solves the problem of tokenization multiplicity.},
+      link={https://arxiv.org/abs/2506.06446},
+      note={A preliminary version appeared at the <em>ICML Workshop on Tokenization</em>, 2025, under the title "Canonical Autoregressive Generation".}
+}
+
 @article{velasco2026test,
       abbr=pre,
       title={Test-Time Compute Games}, 
@@ -56,16 +67,6 @@
       year={2025},
       abstract={From finance and healthcare to criminal justice and transportation, various domains that involve critical decisions, traditionally made by humans, are increasingly incorporating artificial intelligence (AI) systems into their decision making processes. Modern AI systems excel at processing vast amounts of data and solving complex problems at a speed and scale unimaginable for humans. However, complete automation of high-stakes decisions is often undesirable due to legal, ethical, and societal concerns. A promising approach, which has attracted significant attention in the machine learning literature, lies in human-AI collaboration: decision making pipelines that leverage the computational strengths of AI systems to enhance the overall quality of decisions while maintaining a degree of human control. In this context, I focus on AI-assisted decision making scenarios characterized by complexity and uncertainty, specifically requiring strategic reasoning about others’ actions and counterfactual reasoning about alternatives to past decisions. First, I focus on strategic reasoning and introduce methods based on game- theoretic modeling to support policy design in strategic environments. These methods enable a decision maker in a resource allocation scenario to design policies, informed by a predictive model, that maximize their utility while accounting for strategic responses from individuals who gain knowledge about the policy and aim to receive a beneficial decision. I provide algorithms for two distinct scenarios with varying levels of information available to individuals: a fully transparent scenario where the policy is disclosed and a partially transparent scenario where the decision maker provides actionable recommendations to individuals rejected by the policy. Then, I shift focus to counterfactual reasoning and develop methods based on causal modeling to enhance the counterfactual reasoning capabilities of a human decision maker in a sequential decision making task. These methods aim to improve the decision maker’s learning process from past experiences by identifying critical time steps where different actions could have led to better outcomes. Specifically, I consider settings where a decision maker observes the state of the environment over time and takes a series of interdependent actions that result in an observed outcome. For both discrete and continuous states, I formalize the problem of finding alternative action sequences, close to the observed one, that would have achieved a better counterfactual outcome, and I provide efficient algorithmic solutions. Finally, I investigate how people perceive responsibility in human-AI teams. In this context, I propose a computational model based on counterfactual simulations to predict how an external observer attributes responsibility to a human and an AI agent collaborating towards a common goal. To evaluate the model’s predictions, I develop a simulation environment that generates stylized instances of sequential human-AI collaboration and conduct a human-subject study in which participants make responsibility judgments about the two agents.},
       link={https://kluedo.ub.rptu.de/frontdoor/index/index/docId/9284},
-}
-
-@article{chatzi2025canonical,
-      abbr=ws,
-      title={Canonical Autoregressive Generation}, 
-      author={Chatzi, Ivi and Corvelo Benz, Nina and Tsirtsis, Stratis and Gomez-Rodriguez, Manuel },
-      journal={ICML Workshop on Tokenization},
-      year={2025},
-      abstract={State of the art large language models are trained using large amounts of tokens derived from raw text using what is called a tokenizer. Crucially, the tokenizer determines the (token) vocabulary a model will use during inference as well as, in principle, the (token) language. This is because, while the token vocabulary may allow for different tokenizations of a string, the tokenizer always maps the string to only one of these tokenizations--the canonical tokenization. However, multiple lines of empirical evidence suggest that large language models do not always generate canonical token sequences, and this comes with several negative consequences. In this work, we first show that, to generate a canonical token sequence, a model needs to generate (partial) canonical token sequences at each step of the autoregressive generation process underpinning its functioning. Building upon this theoretical result, we introduce canonical sampling, a simple and efficient sampling method that precludes a given model from generating non-canonical token sequences. Further, we also show that, in comparison with standard sampling, the distribution of token sequences generated using canonical sampling is provably closer to the true distribution of token sequences used during training.},
-      link={https://arxiv.org/abs/2506.06446},
 }
 
 @article{velasco2025llm,
@@ -175,7 +176,7 @@
   year={2021},
   abstract={Decision-making systems increasingly orchestrate our world: how to intervene on the algorithmic components to build fair and equitable systems is therefore a question of utmost importance; one that is substantially complicated by the context-dependent nature of fairness and discrimination. Modern decision-making systems that involve allocating resources or information to people (e.g., school choice, advertising) incorporate machine-learned predictions in their pipelines, raising concerns about potential strategic behavior or constrained allocation, concerns usually tackled in the context of mechanism design. Although both machine learning and mechanism design have developed frameworks for addressing issues of fairness and equity, in some complex decision-making systems, neither framework is individually sufficient. In this paper, we develop the position that building fair decision-making systems requires overcoming these limitations which, we argue, are inherent to each field. Our ultimate objective is to build an encompassing framework that cohesively bridges the individual frameworks of mechanism design and machine learning. We begin to lay the ground work towards this goal by comparing the perspective each discipline takes on fair decision-making, teasing out the lessons each field has taught and can teach the other, and highlighting application domains that require a strong collaboration between these disciplines.},
   link={https://dl.acm.org/doi/10.1145/3442188.3445912},
-  note={A preliminary version appeared at the <em>Harvard CRCS Workshop on AI for Social Good (AI4SG)</em>, 2020.}
+  note={A preliminary version appeared at the <em>Harvard CRCS Workshop on AI for Social Good (AI4SG)</em>, 2020, under the title "Fairness and Discrimination in Mechanism Design and Machine Learning".}
 }
 
 @article{tsirtsis2020decisions,
