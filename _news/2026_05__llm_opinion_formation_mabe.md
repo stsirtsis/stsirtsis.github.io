@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released a new preprint showing that [AI-Mediated Communication Can Steer Collective Opinion](https://arxiv.org/abs/2605.16245) and I gave a talk about it at the [Machine+Behavior conference](https://machinebehavior.science)! 📜
+I gave a talk about our work on the [effects of AI on collective opinion](https://arxiv.org/abs/2605.16245) at the [Machine+Behavior conference](https://machinebehavior.science).
