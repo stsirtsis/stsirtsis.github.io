@@ -797,8 +797,9 @@ div.trivia.hidden.open {
       }
 
       .distinction-badge {
-        background: linear-gradient(135deg, #e6b542, #b8860b);
-        color: #3d2c04;
+        background: linear-gradient(135deg, #d9a93a, #ab7c0a);
+        // !important needed to override MDB's `.badge { color: #fff !important }`
+        color: var(--global-text-color) !important;
       }
 
       .links {
