@@ -47,7 +47,30 @@
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <!-- On the about page, make the title link to the paper -->
+    {% assign paper_url = null %}
+    {% if page.layout == 'about' %}
+      {% if entry.link %}
+        {% assign paper_url = entry.link %}
+      {% elsif entry.arxiv %}
+        {% assign paper_url = 'http://arxiv.org/abs/' | append: entry.arxiv %}
+      {% elsif entry.pdf %}
+        {% if entry.pdf contains '://' %}
+          {% assign paper_url = entry.pdf %}
+        {% else %}
+          {% assign paper_url = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
+        {% endif %}
+      {% elsif entry.website %}
+        {% assign paper_url = entry.website %}
+      {% endif %}
+    {% endif %}
+    <div class="title">
+      {%- if paper_url -%}
+        <a href="{{ paper_url }}" style="color: inherit">{{ entry.title }}</a>
+      {%- else -%}
+        {{ entry.title }}
+      {%- endif -%}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
