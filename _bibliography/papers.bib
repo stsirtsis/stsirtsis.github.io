@@ -149,7 +149,7 @@
               cloud-based services that provide access to large language models
               have become very popular. In these services, the price users pay
               for an output provided by a model depends on the number of tokens
-              the model uses to generate it -- they pay a fixed price per token.
+              the model uses to generate it: they pay a fixed price per token.
               In this work, we show that this pricing mechanism creates a
               financial incentive for providers to strategize and misreport the
               (number of) tokens a model used to generate an output, and users
@@ -157,19 +157,23 @@
               them. However, we also show that, if an unfaithful provider is
               obliged to be transparent about the generative process used by the
               model, misreporting optimally without raising suspicion is hard.
-              Nevertheless, as a proof-of-concept, we introduce an efficient
+              Nevertheless, as a proof-of-concept, we develop an efficient
               heuristic algorithm that allows providers to significantly
-              overcharge users without raising suspicion, highlighting the
+              overcharge users without raising suspicion. Crucially, we
+              demonstrate that the cost of running the algorithm is lower than
+              the additional revenue from overcharging users, highlighting the
               vulnerability of users under the current pay-per-token pricing
-              mechanism. Further, to completely eliminate the financial incentive
-              to strategize, we introduce a simple incentive-compatible token
-              pricing mechanism. Under this mechanism, the price users pay for an
-              output provided by a model depends on the number of characters of
-              the output -- they pay a fixed price per character. Along the way,
-              to illustrate and complement our theoretical results, we conduct
-              experiments with several large language models from the Llama,
-              Gemma and Ministral families, and input prompts from the LMSYS
-              Chatbot Arena platform.},
+              mechanism. Further, we show that, to eliminate the financial
+              incentive to strategize, a pricing mechanism must price tokens
+              linearly on their character count. While this makes a provider's
+              profit margin vary across tokens, we introduce a simple
+              prescription under which the provider who adopts such an
+              incentive-compatible pricing mechanism can maintain the average
+              profit margin they had under the pay-per-token pricing mechanism.
+              Along the way, to illustrate and complement our theoretical
+              results, we conduct experiments with several large language models
+              from the Llama, Gemma and Ministral families, and input prompts
+              from the LMSYS Chatbot Arena platform.},
   link = {https://proceedings.mlr.press/v306/velasco26a.html},
   selected = {true},
 }
@@ -293,23 +297,23 @@
               source of randomness. Building upon our causal model, we first show
               that, on evaluations based on benchmark datasets, coupled
               autoregressive generation leads to the same conclusions as vanilla
-              autoregressive generation but using provably fewer samples. However
-              , we further show that, on evaluations based on (human) pairwise
-              comparisons, coupled and vanilla autoregressive generation can
-              surprisingly lead to different rankings when comparing more than
-              two models, even with an infinite amount of samples. This suggests
-              that the apparent advantage of a model over others in existing
-              evaluation protocols may not be genuine but rather confounded by
-              the randomness inherent to the generation process. To illustrate
-              and complement our theoretical results, we conduct experiments with
-              several large language models from the Llama family. We find that,
-              across multiple knowledge areas from the popular MMLU benchmark
-              dataset, coupled autoregressive generation requires up to 40% fewer
-              samples to reach the same conclusions as vanilla autoregressive
-              generation. Further, using data from the LMSYS Chatbot Arena
-              platform, we find that the win-rates derived from pairwise
-              comparisons by a strong large language model to prompts differ
-              under coupled and vanilla autoregressive generation.},
+              autoregressive generation but using provably fewer samples.
+              However, we further show that, on evaluations based on (human)
+              pairwise comparisons, coupled and vanilla autoregressive generation
+              can surprisingly lead to different rankings when comparing more
+              than two models, even with an infinite amount of samples. This
+              suggests that the apparent advantage of a model over others in
+              existing evaluation protocols may not be genuine but rather
+              confounded by the randomness inherent to the generation process.
+              To illustrate and complement our theoretical results, we conduct
+              experiments with several large language models from the Llama,
+              Mistral and Qwen families. We find that, across multiple benchmark
+              datasets, coupled autoregressive generation requires up to 75%
+              fewer samples to reach the same conclusions as vanilla
+              autoregressive generation. Further, we find that the win-rates
+              derived from pairwise comparisons by a strong large language model
+              to prompts from the LMSYS Chatbot Arena platform differ under
+              coupled and vanilla autoregressive generation.},
   link = {https://proceedings.mlr.press/v300/benz26a.html},
 }
 
@@ -517,23 +521,24 @@
   year = {2023},
   abstract = {Screening classifiers are increasingly used to identify qualified
               candidates in a variety of selection processes. In this context, it
-              has been recently shown that if a classifier is calibrated, one can
+              has been recently shown that, if a classifier is calibrated, one can
               identify the smallest set of candidates which contains, in
               expectation, a desired number of qualified candidates using a
               threshold decision rule. This lends support to focusing on
               calibration as the only requirement for screening classifiers. In
               this paper, we argue that screening policies that use calibrated
               classifiers may suffer from an understudied type of within-group
-              unfairness—they may unfairly treat qualified members within
+              unfairness -- they may unfairly treat qualified members within
               demographic groups of interest. Further, we argue that this type of
               unfairness can be avoided if classifiers satisfy within-group
-              monotonicity, a natural monotonicity property within each group.
-              Then, we introduce an efficient post-processing algorithm based on
-              dynamic programming to minimally modify a given calibrated
-              classifier so that its probability estimates satisfy within-group
-              monotonicity. We validate our algorithm using US Census survey data
-              and show that withingroup monotonicity can often be achieved at a
-              small cost in terms of prediction granularity and shortlist size.},
+              monotonicity, a natural monotonicity property within each of
+              the groups. Then, we introduce an efficient post-processing
+              algorithm based on dynamic programming to minimally modify a
+              given calibrated classifier so that its probability estimates
+              satisfy within-group monotonicity. We validate our algorithm
+              using US Census survey data and show that within-group
+              monotonicity can be often achieved at a small cost in terms of
+              prediction granularity and shortlist size.},
   link = {https://proceedings.mlr.press/v202/okati23a.html},
 }
 
@@ -559,7 +564,7 @@
               individual naturally emerges to be overdispersed. Using an
               efficient sampling algorithm, we demonstrate how to estimate the
               transmission rate of infectious individuals at the sites they visit
-              and in their households using Bayesian optimization (BO) and
+              and in their households using Bayesian optimization and
               longitudinal case data. Simulations using fine-grained and publicly
               available demographic data and site locations from Bern,
               Switzerland showcase the flexibility of our framework. To
@@ -605,7 +610,7 @@
   journal = {35th Conference on Neural Information Processing Systems (NeurIPS)},
   year = {2021},
   abstract = {Methods to find counterfactual explanations have predominantly
-              focused on one-step decision making processes. In this work, we
+              focused on one step decision making processes. In this work, we
               initiate the development of methods to find counterfactual
               explanations for decision making processes in which multiple,
               dependent actions are taken sequentially over time. We start by
