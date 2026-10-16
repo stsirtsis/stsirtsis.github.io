@@ -796,6 +796,11 @@ div.trivia.hidden.open {
         }
       }
 
+      .distinction-badge {
+        background: linear-gradient(135deg, #e6b542, #b8860b);
+        color: #3d2c04;
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
