@@ -16,11 +16,11 @@
   year = {2026},
   abstract = {Generative artificial intelligence (AI) is increasingly integrated
               into the online platforms where humans exchange opinions; large
-              language models (LLMs) now polish users' posts on LinkedIn and
-              provide context for content shared on X. While prior work has shown
-              that AI can express biased opinions and shape individuals' opinions
-              during human-AI interactions, less attention has been paid to its
-              influence on collective opinion formation when mediating
+              language models (LLMs) have been polishing users' posts on LinkedIn
+              and providing context for content shared on X. While prior work has
+              shown that AI can express biased opinions and shape individuals'
+              opinions during human-AI interactions, less attention has been paid
+              to its influence on collective opinion formation when mediating
               human-to-human communication. We address this gap via a combination
               of empirical and theoretical analyses. We show empirically that
               LLMs from multiple popular families introduce directional biases
@@ -149,14 +149,14 @@
               cloud-based services that provide access to large language models
               have become very popular. In these services, the price users pay
               for an output provided by a model depends on the number of tokens
-              the model uses to generate it: they pay a fixed price per token.
-              In this work, we show that this pricing mechanism creates a
-              financial incentive for providers to strategize and misreport the
-              (number of) tokens a model used to generate an output, and users
-              cannot prove, or even know, whether a provider is overcharging
-              them. However, we also show that, if an unfaithful provider is
-              obliged to be transparent about the generative process used by the
-              model, misreporting optimally without raising suspicion is hard.
+              the model uses to generate it: they pay a fixed price per token. In
+              this work, we show that this pricing mechanism creates a financial
+              incentive for providers to strategize and misreport the (number of)
+              tokens a model used to generate an output, and users cannot prove,
+              or even know, whether a provider is overcharging them. However, we
+              also show that, if an unfaithful provider is obliged to be
+              transparent about the generative process used by the model,
+              misreporting optimally without raising suspicion is hard.
               Nevertheless, as a proof-of-concept, we develop an efficient
               heuristic algorithm that allows providers to significantly
               overcharge users without raising suspicion. Crucially, we
@@ -170,10 +170,10 @@
               prescription under which the provider who adopts such an
               incentive-compatible pricing mechanism can maintain the average
               profit margin they had under the pay-per-token pricing mechanism.
-              Along the way, to illustrate and complement our theoretical
-              results, we conduct experiments with several large language models
-              from the Llama, Gemma and Ministral families, and input prompts
-              from the LMSYS Chatbot Arena platform.},
+              Along the way, to illustrate and complement our theoretical results
+              , we conduct experiments with several large language models from
+              the Llama, Gemma and Ministral families, and input prompts from the
+              LMSYS Chatbot Arena platform.},
   link = {https://proceedings.mlr.press/v306/velasco26a.html},
   selected = {true},
 }
@@ -297,23 +297,23 @@
               source of randomness. Building upon our causal model, we first show
               that, on evaluations based on benchmark datasets, coupled
               autoregressive generation leads to the same conclusions as vanilla
-              autoregressive generation but using provably fewer samples.
-              However, we further show that, on evaluations based on (human)
-              pairwise comparisons, coupled and vanilla autoregressive generation
-              can surprisingly lead to different rankings when comparing more
-              than two models, even with an infinite amount of samples. This
-              suggests that the apparent advantage of a model over others in
-              existing evaluation protocols may not be genuine but rather
-              confounded by the randomness inherent to the generation process.
-              To illustrate and complement our theoretical results, we conduct
-              experiments with several large language models from the Llama,
-              Mistral and Qwen families. We find that, across multiple benchmark
-              datasets, coupled autoregressive generation requires up to 75%
-              fewer samples to reach the same conclusions as vanilla
-              autoregressive generation. Further, we find that the win-rates
-              derived from pairwise comparisons by a strong large language model
-              to prompts from the LMSYS Chatbot Arena platform differ under
-              coupled and vanilla autoregressive generation.},
+              autoregressive generation but using provably fewer samples. However
+              , we further show that, on evaluations based on (human) pairwise
+              comparisons, coupled and vanilla autoregressive generation can
+              surprisingly lead to different rankings when comparing more than
+              two models, even with an infinite amount of samples. This suggests
+              that the apparent advantage of a model over others in existing
+              evaluation protocols may not be genuine but rather confounded by
+              the randomness inherent to the generation process. To illustrate
+              and complement our theoretical results, we conduct experiments with
+              several large language models from the Llama, Mistral and Qwen
+              families. We find that, across multiple benchmark datasets, coupled
+              autoregressive generation requires up to 75% fewer samples to reach
+              the same conclusions as vanilla autoregressive generation. Further,
+              we find that the win-rates derived from pairwise comparisons by a
+              strong large language model to prompts from the LMSYS Chatbot Arena
+              platform differ under coupled and vanilla autoregressive
+              generation.},
   link = {https://proceedings.mlr.press/v300/benz26a.html},
 }
 
@@ -521,8 +521,8 @@
   year = {2023},
   abstract = {Screening classifiers are increasingly used to identify qualified
               candidates in a variety of selection processes. In this context, it
-              has been recently shown that, if a classifier is calibrated, one can
-              identify the smallest set of candidates which contains, in
+              has been recently shown that, if a classifier is calibrated, one
+              can identify the smallest set of candidates which contains, in
               expectation, a desired number of qualified candidates using a
               threshold decision rule. This lends support to focusing on
               calibration as the only requirement for screening classifiers. In
@@ -531,14 +531,13 @@
               unfairness -- they may unfairly treat qualified members within
               demographic groups of interest. Further, we argue that this type of
               unfairness can be avoided if classifiers satisfy within-group
-              monotonicity, a natural monotonicity property within each of
-              the groups. Then, we introduce an efficient post-processing
-              algorithm based on dynamic programming to minimally modify a
-              given calibrated classifier so that its probability estimates
-              satisfy within-group monotonicity. We validate our algorithm
-              using US Census survey data and show that within-group
-              monotonicity can be often achieved at a small cost in terms of
-              prediction granularity and shortlist size.},
+              monotonicity, a natural monotonicity property within each of the
+              groups. Then, we introduce an efficient post-processing algorithm
+              based on dynamic programming to minimally modify a given calibrated
+              classifier so that its probability estimates satisfy within-group
+              monotonicity. We validate our algorithm using US Census survey data
+              and show that within-group monotonicity can be often achieved at a
+              small cost in terms of prediction granularity and shortlist size.},
   link = {https://proceedings.mlr.press/v202/okati23a.html},
 }
 
